@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-27T00:00:00Z",
+  "regions": [
+    {
+      "id": "brisbane",
+      "name": "Brisbane",
+      "bounds": [152.6, -27.8, 153.3, -27.0],
+      "tarFile": null,
+      "tarTopDir": "valhalla_tiles",
+      "gzipped": false,
+      "version": "bundled",
+      "sha256": null,
+      "bytes": { "tar": 0, "unpacked": 0 },
+      "bundled": true
+    },
+    {
+      "id": "seq",
+      "name": "South-East Queensland",
+      "bounds": [151.5, -28.4, 153.6, -25.9],
+      "tarFile": "seq_tiles.tar.gz",
+      "tarTopDir": "seq_tiles",
+      "gzipped": true,
+      "version": "tiles-v1",
+      "sha256": "2c25ac1317c4516d95ed81f132abb8be7397130c2caffc8a8746d98712733654",
+      "bytes": { "tar": 60342433, "unpacked": 166209768 },
+      "tileCount": 82,
+      "bundled": false
+    }
+  ]
+}
